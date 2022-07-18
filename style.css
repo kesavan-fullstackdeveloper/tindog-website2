@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat-black";
 }
 #title {
   background-color: #ff4c68;
@@ -22,6 +22,7 @@ h3 {
   font-family: "Montserrat-black", sans-serif;
   font-size: 1.5rem;
 }
+
 /* navbar */
 .navbar {
   padding-bottom: 3rem;
@@ -86,4 +87,47 @@ h3 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+.pricingcards {
+  padding: 3% 2%;
+}
+
+/* section call to action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta {
+  color: #fff;
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.ctabtn {
+  margin: 5% 4%;
+}
+/* footer */
+#footer {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 7% 15%;
+}
+.footicon {
+  margin: 20px 10px;
+}
+@media screen and (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+    width: 50%;
+  }
 }
